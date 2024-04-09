@@ -28,7 +28,7 @@ def is_prime(num):
           
     return True  # otherwise, it's prime
 
-# ask the user to enter a number
+# ask the user to enter a number( which is an integer and that can support float numbers)
 num = int(input("Enter an integer greater than 1: "))
 
 # start counting the time
