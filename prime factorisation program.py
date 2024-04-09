@@ -4,7 +4,7 @@ import time( to know how much time was spent to process the program)
 # welcome message from the user ( as a starting message)
 print("Welcome to the prime factorization program  made by pacifique!!!")
 
-# define a function that takes a number and returns its prime factors
+# define a function that takes a number and returns its prime factors.
 def get_prime_factors(num):
     factors = []    # create an empty list to store the factors
     divisor = 2     # start with the first divisor, which is 2
