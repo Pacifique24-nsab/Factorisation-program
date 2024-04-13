@@ -11,11 +11,11 @@ def get_prime_factors(num):
     while divisor <= num**((0.5)+1):   # loop until the divisor is greater than the number of our user
         if num % divisor == 0:  # if the number is divisible by the divisor,
             factors.append(divisor) # add the divisor to the list of factors
-            num = num / divisor     # divide the number that we get by the divisor again
+            num = num / divisor   # divide the number that we get by the divisor again
         else:
             divisor += 1 # if the number is not divisible by the divisor, try the next divisor
    
-    return factors  # return the list of factors
+    return factors # return the list of factors
 
 # function to check if a number is prime or not prime number
 def is_prime(num):
