@@ -37,12 +37,13 @@ time1 = time.time()
 # find all prime factors of the given number using the get_prime_factors function
 factors = get_prime_factors(num)
 
-
 # print the list of prime factors of the given number
 print("The prime factors of", num, "are:", factors)
 
 # print all prime numbers between 2 and the user-input number as a list
 prime_numbers = []  # create an empty list to store all the prime numbers
+
+
 
 for i in range(2, num+1): # the for loop that check if the divisors i are in the range of between 2 and the number
     if is_prime(i): # if it founds the number i(divisor) is a prime  number
@@ -55,5 +56,3 @@ time2 = time.time()
 
 # print the time taken by the program to calculate the list of prime factors
 print("Time taken:", time2 - time1 , "seconds")
-
-
