@@ -19,7 +19,7 @@ def get_prime_factors(num):
 
 # function to check if a number is prime or not prime number
 def is_prime(num):
-    if num < 2:  # if the number is less than 2, it's not prime
+    if num < 2:  #   if the number is less than 2, it's not prime
         return False
     #create a new condition which doesn't use the square root of the user input
     for i in range(2, int(num**(0.5))+1):  # loop through all possible divisors of the number
