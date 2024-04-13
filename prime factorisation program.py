@@ -6,8 +6,8 @@ print("Welcome to the prime factorization program  made by pacifique!!!")
 
 # define a function that takes a number and returns its prime factors.
 def get_prime_factors(num):
-    factors = []    # create an empty list to store the factors
-    divisor = 2     # start with the first divisor, which is 2
+    factors = []  # create an empty list to store the factors
+    divisor = 2   # start with the first divisor, which is 2
     while divisor <= num**((0.5)+1):   # loop until the divisor is greater than the number of our user
         if num % divisor == 0:  # if the number is divisible by the divisor,
             factors.append(divisor) # add the divisor to the list of factors
