@@ -1,6 +1,7 @@
 #welcome to the program of generating all prime number between 2 and n
 import time( to know how much time was spent to process the program)
 
+
 # welcome message from the user ( as a starting message)
 print("Welcome to the prime factorization program  made by pacifique!!!")
 
